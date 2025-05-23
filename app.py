@@ -47,4 +47,8 @@ if st.button("Rodar predição para todos os candidatos"):
     candidatos['score_sucesso (%)'] = [random.randint(50, 99) for _ in range(len(candidatos))]
     st.dataframe(candidatos[['nome', 'situacao_candidado', 'score_sucesso (%)']])
 
-st.info("🔧 Esta versão demonstra interface e dados reais. O modelo real deve se
+# Info final
+st.info(
+    "🔧 Esta versão demonstra interface e dados reais. "
+    "O modelo real deve ser treinado e integrado via train_model.ipynb."
+)
