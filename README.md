@@ -1,2 +1,3 @@
-# decision-matching-ai
-IA para recrutamento e seleção com dados da Decisio
+# Decision Matching AI
+
+Instruções para rodar no Colab e deploy no Streamlit Cloud.
